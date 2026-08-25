@@ -51,7 +51,7 @@ def main():
 
     if not messages:
         full_message = "⚽ Hôm nay không có trận Ngoại hạng Anh."
-    else
+    else:
         full_message = "\n\n".join(messages)
 
     send_message(full_message)
