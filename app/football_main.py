@@ -1,8 +1,10 @@
 import sys
-from datetime import date, timedelta
+from datetime import datetime, timedelta, timezone
 
 from app.clients.telegram import send_message
 from app.services.football_service import get_fixtures_by_date
+
+VN_TIMEZONE = timezone(timedelta(hours=7))
 
 
 EVENT_ICONS = {
@@ -40,7 +42,8 @@ def main():
     if len(sys.argv) > 1:
         target_date = sys.argv[1]
     else:
-        target_date = (date.today() - timedelta(days=1)).isoformat()
+        today_vn = datetime.now(VN_TIMEZONE).date()
+        target_date = (today_vn - timedelta(days=1)).isoformat()
 
     fixtures = get_fixtures_by_date(target_date)
 
