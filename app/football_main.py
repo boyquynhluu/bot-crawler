@@ -44,12 +44,9 @@ def main():
 
     fixtures = get_fixtures_by_date(target_date)
 
-    print(f"Total fixtures: {len(fixtures)}")
-
     messages = [format_fixture_message(fixture) for fixture in fixtures]
     full_message = "\n\n".join(messages)
 
-    print(full_message)
     send_message(full_message)
 
 
