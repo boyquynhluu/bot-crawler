@@ -1,0 +1,51 @@
+
+===== LEVEL 1 =====
+TAG: h3
+CLASS: ['imt-3', 'text-break']
+TEXT: AI-Powered Principal Fullstack Engineer (Java/Go/RoR)
+
+===== LEVEL 2 =====
+TAG: div
+CLASS: ['ipy-2']
+TEXT: Posted
+8 hours ago | AI-Powered Principal Fullstack Engineer (Java/Go/RoR) | MONEY FORWARD VIETNAM CO.,LTD | Sign in to view salary | AI / Machine Learning Engineer | Hybrid | Ho Chi Minh - Ha Noi | Java | ReactJS | Golang | Ruby on Rails | AI | Hybrid working; Flexible time; Macbook Pro | L&D programs; 17 days off | 13.7 million B2C users; 140,000+ business customer
+
+===== LEVEL 3 =====
+TAG: div
+CLASS: ['ipx-4', 'ipx-xl-3']
+TEXT: SUPER HOT | Posted
+8 hours ago | AI-Powered Principal Fullstack Engineer (Java/Go/RoR) | MONEY FORWARD VIETNAM CO.,LTD | Sign in to view salary | AI / Machine Learning Engineer | Hybrid | Ho Chi Minh - Ha Noi | Java | ReactJS | Golang | Ruby on Rails | AI | Hybrid working; Flexible time; Macbook Pro | L&D programs; 17 days off | 13.7 million B2C users; 140,000+ business customer
+
+===== LEVEL 4 =====
+TAG: div
+CLASS: ['job-card', 'ipt-2', 'd-flex', 'flex-column', 'border-radius-large', 'position-relative', 'cursor-pointer', 'transition-duration-300', 'bg-light-warning-color', 'super-hot']
+TEXT: SUPER HOT | Posted
+8 hours ago | AI-Powered Principal Fullstack Engineer (Java/Go/RoR) | MONEY FORWARD VIETNAM CO.,LTD | Sign in to view salary | AI / Machine Learning Engineer | Hybrid | Ho Chi Minh - Ha Noi | Java | ReactJS | Golang | Ruby on Rails | AI | Hybrid working; Flexible time; Macbook Pro | L&D programs; 17 days off | 13.7 million B2C users; 140,000+ business customer
+
+===== LEVEL 5 =====
+TAG: div
+CLASS: ['col-xl-5', 'card-jobs-list', 'ips-0', 'ipe-0', 'ipe-xl-6']
+TEXT: SUPER HOT | Posted
+8 hours ago | AI-Powered Principal Fullstack Engineer (Java/Go/RoR) | MONEY FORWARD VIETNAM CO.,LTD | Sign in to view salary | AI / Machine Learning Engineer | Hybrid | Ho Chi Minh - Ha Noi | Java | ReactJS | Golang | Ruby on Rails | AI | Hybrid working; Flexible time; Macbook Pro | L&D programs; 17 days off | 13.7 million B2C users; 140,000+ business customer | SUPER HOT | Posted
+1 day ago | Senior Java Backend Developer (Spring Boot) | VNEXT SOFTWARE | Sign in to view salary | Backend Developer | At office | Ha Noi | Java | Docker | Kafka | SQL | Microservices | Spring Boot | Bảo hiểm sức khỏe 24/24 PVI Care | 13++ tháng lương/năm | Review tăng lương 2 lần/năm | HOT | Posted
+1 day ago | All level-Android Developer (Java, Kotlin, Git, API) | Ingenico Vietnam | Sign in to view salary | Mobile Application Developer | At office | Ha Noi | Android | Git | API | Software Architecture | Java | Kotlin | HOT | Posted
+1 day ago | Automation Test Engineer (Java) | Ngân hàng T
+
+===== LEVEL 6 =====
+TAG: div
+CLASS: ['row', 'imt-6', 'imx-0', 'search-result']
+TEXT: SUPER HOT | Posted
+8 hours ago | AI-Powered Principal Fullstack Engineer (Java/Go/RoR) | MONEY FORWARD VIETNAM CO.,LTD | Sign in to view salary | AI / Machine Learning Engineer | Hybrid | Ho Chi Minh - Ha Noi | Java | ReactJS | Golang | Ruby on Rails | AI | Hybrid working; Flexible time; Macbook Pro | L&D programs; 17 days off | 13.7 million B2C users; 140,000+ business customer | SUPER HOT | Posted
+1 day ago | Senior Java Backend Developer (Spring Boot) | VNEXT SOFTWARE | Sign in to view salary | Backend Developer | At office | Ha Noi | Java | Docker | Kafka | SQL | Microservices | Spring Boot | Bảo hiểm sức khỏe 24/24 PVI Care | 13++ tháng lương/năm | Review tăng lương 2 lần/năm | HOT | Posted
+1 day ago | All level-Android Developer (Java, Kotlin, Git, API) | Ingenico Vietnam | Sign in to view salary | Mobile Application Developer | At office | Ha Noi | Android | Git | API | Software Architecture | Java | Kotlin | HOT | Posted
+1 day ago | Automation Test Engineer (Java) | Ngân hàng T
+
+===== LEVEL 7 =====
+TAG: div
+CLASS: ['ipt-6', 'filter']
+TEXT: 129 | java | jobs in Vietnam | Filter | Level | Internship | Fresher | Junior | Senior | Manager | Working Model | At office | Remote | Hybrid | Salary | 0$ - 10,000$ | Apply | Job Domain | Blockchain & Web3 Services | Food and Beverage | Tourism and Hospitality Services | Insurance | Consumer Goods | E-commerce | Education and Training | Banking | Game | Government | IT Hardware and Computing | Non-Profit and Social Services | Manufacturing and Engineering | Media, Advertising and Entertainment | Environment | Pharmaceuticals | Real Estate, Property and Construction | Retail and Wholesale | IT Services and IT Consulting | Telecommunication | Transportation, Logistics and Warehouse | Cyber Security | Trading and Commercial | Network and Infrastructure | Software Development Outsourcing | Software Products and Web Services | Agriculture | Sports and Fitness | Apparel and Fashion | Creative and Design | Staffing and Recruiting | Publishing and Printing | Facility Management | Research Se
+
+===== LEVEL 8 =====
+TAG: div
+CLASS: ['icontainer']
+TEXT: 129 | java | jobs in Vietnam | Filter | Level | Internship | Fresher | Junior | Senior | Manager | Working Model | At office | Remote | Hybrid | Salary | 0$ - 10,000$ | Apply | Job Domain | Blockchain & Web3 Services | Food and Beverage | Tourism and Hospitality Services | Insurance | Consumer Goods | E-commerce | Education and Training | Banking | Game | Government | IT Hardware and Computing | Non-Profit and Social Services | Manufacturing and Engineering | Media, Advertising and Entertainment | Environment | Pharmaceuticals | Real Estate, Property and Construction | Retail and Wholesale | IT Services and IT Consulting | Telecommunication | Transportation, Logistics and Warehouse | Cyber Security | Trading and Commercial | Network and Infrastructure | Software Development Outsourcing | Software Products and Web Services | Agriculture | Sports and Fitness | Apparel and Fashion | Creative and Design | Staffing and Recruiting | Publishing and Printing | Facility Management | Research Se
