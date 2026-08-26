@@ -47,7 +47,10 @@ def main():
 
     fixtures = get_fixtures_by_date(target_date)
 
-    messages = [format_fixture_message(fixture) for fixture in fixtures]
+    if not fixtures or len(fixtures) <= 0:
+        messages = ""
+    else:
+        messages = [format_fixture_message(fixture) for fixture in fixtures]
 
     if not messages:
         full_message = "⚽ Hôm nay không có trận Ngoại hạng Anh."
