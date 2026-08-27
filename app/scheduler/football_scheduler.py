@@ -4,7 +4,7 @@ import schedule
 
 from app.football_main import main as run_football_main
 
-RUN_TIME = "07:00"
+RUN_TIME = "06:00"
 
 
 def job():
