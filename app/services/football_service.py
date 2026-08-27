@@ -1,9 +1,12 @@
+from datetime import datetime, timedelta, timezone
+
 from app.clients.football_api import get_fixtures, get_fixture_events
 from app.models.event import Event
 from app.models.fixture import Fixture
 from app.config.settings import PREMIER_LEAGUE_ID
 
 RELEVANT_EVENT_TYPES = ("Goal", "Card")
+VN_TIMEZONE = timezone(timedelta(hours=7))
 
 
 def _get_fixture_events(fixture_id: int) -> list[Event]:
@@ -32,12 +35,38 @@ def _get_fixture_events(fixture_id: int) -> list[Event]:
 
 
 def get_fixtures_by_date(date: str) -> list[Fixture]:
-    raw_fixtures = get_fixtures(date=date)
+    target_date = datetime.strptime(date, "%Y-%m-%d").date()
+
+    vn_start = datetime(
+        target_date.year, target_date.month, target_date.day,
+        tzinfo=VN_TIMEZONE,
+    )
+    vn_end = vn_start + timedelta(days=1)
+
+    utc_dates = {
+        vn_start.astimezone(timezone.utc).date(),
+        (vn_end - timedelta(seconds=1)).astimezone(timezone.utc).date(),
+    }
+
+    raw_fixtures_by_id = {}
+
+    for utc_date in utc_dates:
+        try:
+            items = get_fixtures(date=utc_date.isoformat())
+        except RuntimeError as error:
+            print(f"Skipping {utc_date.isoformat()}: {error}")
+            continue
+
+        for item in items:
+            raw_fixtures_by_id[item["fixture"]["id"]] = item
 
     raw_fixtures = [
         item
-        for item in raw_fixtures
+        for item in raw_fixtures_by_id.values()
         if item["league"]["id"] == PREMIER_LEAGUE_ID
+        and vn_start
+        <= datetime.fromisoformat(item["fixture"]["date"]).astimezone(VN_TIMEZONE)
+        < vn_end
     ]
 
     fixtures = []
