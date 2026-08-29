@@ -17,8 +17,21 @@ EVENT_ICONS = {
     "Second Yellow card": "🟨🟥",
 }
 
+NOT_STARTED_STATUSES = {"NS", "TBD", "PST"}
+
 
 def format_fixture_message(fixture) -> str:
+    if fixture.status in NOT_STARTED_STATUSES:
+        kickoff = (
+            datetime.fromisoformat(fixture.date)
+            .astimezone(VN_TIMEZONE)
+            .strftime("%H:%M %d/%m")
+        )
+        return (
+            f"<b>[{fixture.league}] {fixture.home_team} vs {fixture.away_team}</b>\n"
+            f"🕒 Chưa đá - {kickoff}"
+        )
+
     lines = [
         f"<b>[{fixture.league}] {fixture.home_team} "
         f"{fixture.home_score} - {fixture.away_score} "
